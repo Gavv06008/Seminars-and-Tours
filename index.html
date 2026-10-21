@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seminars &amp; Tours — George A. Villareal</title>
+<meta name="description" content="A field journal of seminars, webinars, and educational tours completed throughout the BS Information Technology program — logged by George A. Villareal.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23101B14'/%3E%3Ccircle cx='12' cy='12' r='7' fill='none' stroke='%23C99A46' stroke-width='1.6'/%3E%3Cpath d='M8.7 12.2l2.2 2.2 4.2-4.6' fill='none' stroke='%23C99A46' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;0,900;1,500;1,600&family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ================= ICON SPRITE ================= -->
+<svg class="icon-sprite" aria-hidden="true">
+<defs>
+<symbol id="i-home" viewBox="0 0 24 24">
+  <path d="M4 11.5 12 4l8 7.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 10v8.5a1 1 0 0 0 1 1h3v-5.5h4V19.5h3a1 1 0 0 0 1-1V10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="i-output" viewBox="0 0 24 24">
+  <path d="M13 3.5H8a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V9l-5-5.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M13 3.5V9h5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M9.3 16.2 14 11.5M14 11.5h-3.8M14 11.5v3.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="i-people" viewBox="0 0 24 24">
+  <circle cx="9" cy="8.2" r="3.1" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M3.6 19c.3-3.4 2.4-5.4 5.4-5.4s5.1 2 5.4 5.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="16.4" cy="9" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M14.9 13.9c2.6.1 4.3 1.9 4.6 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+</symbol>
+<symbol id="i-report" viewBox="0 0 24 24">
+  <rect x="5.5" y="4.5" width="13" height="16" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <rect x="9" y="3" width="6" height="3" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M8.5 11.5h7M8.5 14.5h7M8.5 17.5h4.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+</symbol>
+<symbol id="i-profile" viewBox="0 0 24 24">
+  <circle cx="12" cy="8.3" r="3.6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M4.8 19.8c.5-4.2 3.2-6.6 7.2-6.6s6.7 2.4 7.2 6.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+</symbol>
+<symbol id="i-back" viewBox="0 0 24 24">
+  <path d="M19 12H5.5M11 18.5 5 12l6-6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="i-camera" viewBox="0 0 24 24">
+  <path d="M4.5 8.2a2 2 0 0 1 2-2h1.1l.9-1.6a1 1 0 0 1 .9-.6h5.2a1 1 0 0 1 .9.6l.9 1.6h1.1a2 2 0 0 1 2 2v9.3a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="12" cy="13" r="3.4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+</symbol>
+<symbol id="i-external" viewBox="0 0 24 24">
+  <path d="M8 16 16.3 7.7M9.5 7.2h6.8V14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="i-calendar" viewBox="0 0 24 24">
+  <rect x="4.5" y="5.5" width="15" height="14.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M4.5 10h15M8.2 3.5v4M15.8 3.5v4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+</symbol>
+<symbol id="i-pin" viewBox="0 0 24 24">
+  <path d="M12 21s6.5-6 6.5-11A6.5 6.5 0 0 0 5.5 10c0 5 6.5 11 6.5 11Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+  <circle cx="12" cy="9.9" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+</symbol>
+<symbol id="i-stamp" viewBox="0 0 24 24">
+  <circle cx="12" cy="12" r="9.1" fill="none" stroke="currentColor" stroke-width="1.1" stroke-dasharray="2.2 3.4"/>
+  <circle cx="12" cy="12" r="6.7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M8.7 12.2l2.2 2.2 4.2-4.6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24">
+  <path d="M4.5 12h14.3M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="i-tag" viewBox="0 0 24 24">
+  <path d="M11.4 3.5H6a2 2 0 0 0-2 2v5.4c0 .5.2 1 .6 1.4l8 8a2 2 0 0 0 2.8 0l4.4-4.4a2 2 0 0 0 0-2.8l-8-8a2 2 0 0 0-1.4-.6Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+  <circle cx="8.3" cy="8.3" r="1.3" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="i-briefcase" viewBox="0 0 24 24">
+  <rect x="3.5" y="7.5" width="17" height="11.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M3.5 12.5h17" stroke="currentColor" stroke-width="1.6"/>
+</symbol>
+</defs>
+</svg>
+
+<!-- ================= BRANDMARK ================= -->
+<a href="#home" class="brandmark" aria-label="Seminars and Tours — go to home">
+  <svg><use href="#i-stamp"/></svg>
+  <span><b>S&amp;T</b> Field Journal</span>
+</a>
+
+<!-- ================= NAV ================= -->
+<nav class="glass-nav" aria-label="Primary">
+  <a href="#home" class="nav-item" data-page="home" aria-label="Home">
+    <svg><use href="#i-home"/></svg><span class="nav-label">Home</span>
+  </a>
+  <a href="#outputs" class="nav-item" data-page="outputs" aria-label="Outputs">
+    <svg><use href="#i-output"/></svg><span class="nav-label">Outputs</span>
+  </a>
+  <a href="#coordination" class="nav-item" data-page="coordination" aria-label="Group Seminar Coordination">
+    <svg><use href="#i-people"/></svg><span class="nav-label">Coordination</span>
+  </a>
+  <a href="#about" class="nav-item" data-page="about" aria-label="About Me">
+    <svg><use href="#i-profile"/></svg><span class="nav-label">About</span>
+  </a>
+</nav>
+
+<main>
+
+<!-- ================= HOME ================= -->
+<section id="home" class="page active" aria-label="Home">
+  <div class="photo-full bg-forest">
+    <div class="wrap home-hero">
+      <p class="eyebrow rise">Field Journal &middot; BS Information Technology</p>
+      <h1 class="home-title rise">Seminars <span class="amp">&amp;</span> Tours</h1>
+      <p class="home-sub rise">A first-hand record of the seminars, webinars, and educational tours completed throughout the program &mdash; Attended by <b>George A. Villareal</b>, BSIT 4th Year.</p>
+      <p class="home-sub rise">Attended by <b>George A. Villareal</b>, BSIT 4th Year.</p>
+      <div class="home-actions rise">
+        <a href="#outputs" class="btn btn-primary">View Seminars<svg><use href="#i-arrow"/></svg></a>
+        <a href="#coordination" class="btn btn-ghost">Class Seminar<svg><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="home-meta rise">
+        <div><span class="num">AY 2025&ndash;2026</span><span class="lbl">Academic Year</span></div>
+        <div><span class="num">4B</span><span class="lbl">BSIT</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="page" aria-label="About Me">
+  <div class="about-page">
+    <div class="about-bg bg-golden" aria-hidden="true"></div>
+    <div class="about-inner">
+      <div class="about-top rise">
+        <a href="#home" class="back-link"><svg><use href="#i-back"/></svg> Home</a>
+      </div>
+
+      <div class="bento">
+        <article class="tile tile-profile rise">
+          <div class="portrait">
+            <img src="images/gav.jpeg" alt="George A. Villareal">
+  
+            <span class="mono" aria-hidden="true"></span>
+            <span class="photo-hint"><svg><use href="#i-camera"/></svg></span>
+          </div>
+          <div class="profile-body">
+            <h1 class="profile-name">George A. Villareal</h1>
+            <p class="profile-role">BS Information Technology</p>
+            <div class="profile-chips">
+              <span class="chip">4th Year</span>
+              <span class="chip">Section B</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="tile tile-intro rise">
+          <p class="eyebrow">About</p>
+          <h2>Documenting what I learn, <em>one seminar and tour</em> at a time.</h2>
+          <p class="bio">I&rsquo;m a fourth-year Information Technology student documenting the seminars, tours, and industry sessions I attend throughout the program. Each entry in this journal is a record of something I picked up along the way &mdash; a tool, a trend, or a new way of thinking about the field I&rsquo;m about to enter.</p>
+        </article>
+
+        <article class="tile tile-program rise">
+          <div class="t-top">
+            <span class="t-label">Program</span>
+            <svg><use href="#i-briefcase"/></svg>
+          </div>
+          <div class="t-value">BS Information Technology</div>
+        </article>
+
+        <article class="tile tile-stat rise">
+          <span class="t-label">Year &amp; Section</span>
+          <div class="t-value">4th Year</div>
+          <div class="t-sub">Block B</div>
+        </article>
+
+        <article class="tile tile-stat rise">
+          <span class="t-label">Academic Year</span>
+          <div class="t-value">2025&ndash;2026</div>
+          <div class="t-sub">Logged period</div>
+        </article>
+
+        <article class="tile tile-focus rise">
+          <span class="t-label">Topics covered</span>
+          <div class="topic-chips">
+            <span>Emerging Trends and Innovation in IT</span>
+            <span>Cybersecurity</span>
+            <span>Data Analytics or Artificial Intellegence in Practice</span>
+            <span>Cloud Computing, DevOps, and Modern IT Infrastructure</span>
+            <span>Tech Entrepreneurship and Start-Ups</span>
+            <span>Class Collaboration Seminars</span>
+          </div>
+        </article>
+
+        <a href="#outputs" class="tile tile-link tile-outputs rise">
+          <span class="t-label">Outputs</span>
+          <div class="big-num">05</div>
+          <span class="t-cta">View all <svg><use href="#i-arrow"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GROUP SEMINAR COORDINATION (includes narrative) ================= -->
+<section id="coordination" class="page" aria-label="Group Seminar Coordination">
+  <div class="hero-band bg-forest">
+    <div class="wrap">
+      <a href="#home" class="back-link rise"><svg><use href="#i-back"/></svg> Home</a>
+      <p class="eyebrow rise" style="color:var(--gold-light);">Group Seminar &middot; Coordination &amp; Narrative</p>
+      <h1 class="seminar-title rise">AI &amp; Cybersecurity: Navigating the Next Digital Frontier</h1>
+      <div class="meta-row rise">
+        <span class="meta-chip"><svg><use href="#i-calendar"/></svg>March 14, 2026</span>
+        <span class="meta-chip"><svg><use href="#i-pin"/></svg>Online via Zoom</span>
+        <span class="meta-chip"><svg><use href="#i-tag"/></svg>Role: Program Committee</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="wrap paper-pad">
+      <p class="coord-intro">Coordinated with the BSIT 4B organizing committee to bring together IT students for a closer look at how artificial intelligence is reshaping the cybersecurity landscape &mdash; from speaker outreach to attendance tracking and post-event reporting.</p>
+
+      <!-- Coordination files + form -->
+      <div class="coord-grid">
+        <div>
+          <div class="panel-heading">
+            <h2>Coordination Files</h2>
+            <span class="count">4 files</span>
+          </div>
+          <table class="file-table">
+            <thead>
+              <tr><th>Title</th><th>Last modified</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="file-name"><svg><use href="#i-report"/></svg>Event Proposal &amp; Program Flow</span></td>
+                <td class="file-date">Feb 20, 2026</td>
+              </tr>
+              <tr>
+                <td><span class="file-name"><svg><use href="#i-report"/></svg>Speaker Invitation &amp; Confirmation Letter</span></td>
+                <td class="file-date">Feb 24, 2026</td>
+              </tr>
+              <tr>
+                <td><span class="file-name"><svg><use href="#i-report"/></svg>Attendance Sheet</span></td>
+                <td class="file-date">Mar 14, 2026</td>
+              </tr>
+              <tr>
+                <td><span class="file-name"><svg><use href="#i-report"/></svg>Post-Event Evaluation Summary</span></td>
+                <td class="file-date">Mar 18, 2026</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="form-card">
+          <svg class="stamp-icon"><use href="#i-external"/></svg>
+          <h3>Registration &amp; Evaluation Form</h3>
+          <p>Used to collect attendee sign-ups ahead of the seminar, and feedback once it wrapped. Swap this link with your own Google Form.</p>
+          <a href="#" class="btn btn-primary btn-sm">Open Google Form <svg><use href="#i-external"/></svg></a>
+        </div>
+      </div>
+
+      <!-- Narrative report -->
+      <div class="split section-block">
+        <div class="narrative-body">
+          <h2><svg><use href="#i-report"/></svg>Narrative Report</h2>
+          <p>On March 14, 2026, I joined the online seminar &ldquo;AI &amp; Cybersecurity: Navigating the Next Digital Frontier,&rdquo; organized by our BSIT 4B block as part of the program&rsquo;s ongoing seminar and tour requirement. The session brought together IT students and a panel of industry practitioners to examine how artificial intelligence is changing both sides of the cybersecurity equation &mdash; as a tool for defense, and increasingly, as a tool for attack.</p>
+          <p>The first half of the seminar focused on how AI-driven systems are now used for real-time threat detection, anomaly monitoring, and automated incident response &mdash; capabilities that would have required much larger security teams only a few years ago. The second half turned the conversation around, walking through how the same technology is being used to generate more convincing phishing campaigns and to probe systems for weaknesses faster than traditional methods allow.</p>
+          <p>What stayed with me most was a point one of the speakers made almost in passing: that AI hasn&rsquo;t changed the fundamentals of cybersecurity, only the speed at which both attackers and defenders now have to move. It reframed a lot of what we&rsquo;ve covered in our networking and systems security classes &mdash; less about memorizing a fixed set of threats, and more about building habits that can keep up with a landscape that doesn&rsquo;t hold still.</p>
+          <p>As someone about to step into the IT industry, the seminar was a useful reminder that the tools will keep changing, but the underlying discipline &mdash; asking what could go wrong, and building for it &mdash; won&rsquo;t. It&rsquo;s a habit I want to carry into my own work, starting with how I approach my capstone project this term.</p>
+        </div>
+
+        <div class="aside-stack">
+          <div class="info-card">
+            <h3 class="mini-label"><svg><use href="#i-tag"/></svg>Seminar details</h3>
+            <dl class="facts">
+              <div><dt>Date</dt><dd>March 14, 2026</dd></div>
+              <div><dt>Venue</dt><dd>Online via Zoom</dd></div>
+              <div><dt>Organizer</dt><dd>BSIT 4B Block</dd></div>
+              <div><dt>My role</dt><dd>Program Committee</dd></div>
+              <div><dt>Duration</dt><dd>Half day &middot; 4 hrs</dd></div>
+            </dl>
+          </div>
+          <div class="info-card">
+            <h3 class="mini-label"><svg><use href="#i-stamp"/></svg>Key takeaways</h3>
+            <ul class="takeaways">
+              <li><svg><use href="#i-stamp"/></svg>AI speeds up threat detection and incident response.</li>
+              <li><svg><use href="#i-stamp"/></svg>The same tools make phishing and probing attacks easier to scale.</li>
+              <li><svg><use href="#i-stamp"/></svg>Security fundamentals matter more as the pace of attacks increases.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Documentation (3 photos) + certificate -->
+      <div class="split">
+        <div>
+          <div class="doc-heading panel-heading">
+            <h2>Documentation</h2>
+            <span class="count">3 photos</span>
+          </div>
+          <div class="doc-mosaic">
+            <div class="doc-photo"><svg><use href="#i-camera"/></svg><span>Add photo</span></div>
+            <div class="doc-photo"><svg><use href="#i-camera"/></svg><span>Add photo</span></div>
+            <div class="doc-photo"><svg><use href="#i-camera"/></svg><span>Add photo</span></div>
+          </div>
+        </div>
+        <div>
+          <div class="doc-heading panel-heading">
+            <h2>Certificate</h2>
+            <span class="count">Placeholder</span>
+          </div>
+          <div class="cert-frame">
+            <svg><use href="#i-stamp"/></svg>
+            <span class="cert-title">Certificate of Attendance</span>
+            <span class="cert-hint">Add certificate image</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OUTPUTS ================= -->
+<section id="outputs" class="page" aria-label="Outputs">
+  <div class="outputs-page">
+    <svg class="contour-lines" viewBox="0 0 1600 800" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0.0,127.7 Q0.0,127.7 33.35,136.35 Q66.7,145.0 100.0,142.25 Q133.3,139.5 166.65,127.8 Q200.0,116.1 233.35,106.2 Q266.7,96.3 300.0,97.25 Q333.3,98.2 366.65,109.1 Q400.0,120.0 433.35,130.95 Q466.7,141.9 500.0,142.8 Q533.3,143.7 566.65,133.8 Q600.0,123.9 633.35,112.2 Q666.7,100.5 700.0,97.75 Q733.3,95.0 766.65,103.7 Q800.0,112.4 833.35,124.55 Q866.7,136.7 900.0,141.25 Q933.3,145.8 966.65,138.55 Q1000.0,131.3 1033.35,118.85 Q1066.7,106.4 1100.0,100.2 Q1133.3,94.0 1166.65,99.7 Q1200.0,105.4 1233.35,117.75 Q1266.7,130.1 1300.0,137.85 Q1333.3,145.6 1366.65,141.65 Q1400.0,137.7 1433.35,125.65 Q1466.7,113.6 1500.0,104.45 Q1533.3,95.3 1566.65,97.5 T1600.0,99.7" fill="none" stroke="#C99A46" stroke-width="1.1"/>
+      <path d="M0.0,230.3 Q0.0,230.3 33.35,231.0 Q66.7,231.7 100.0,221.95 Q133.3,212.2 166.65,198.4 Q200.0,184.6 233.35,175.9 Q266.7,167.2 300.0,169.35 Q333.3,171.5 366.65,183.1 Q400.0,194.7 433.35,208.05 Q466.7,221.4 500.0,227.7 Q533.3,234.0 566.65,229.0 Q600.0,224.0 633.35,211.1 Q666.7,198.2 700.0,185.9 Q733.3,173.6 766.65,170.0 Q800.0,166.4 833.35,173.95 Q866.7,181.5 900.0,195.15 Q933.3,208.8 966.65,219.55 Q1000.0,230.3 1033.35,231.0 Q1066.7,231.7 1100.0,221.95 Q1133.3,212.2 1166.65,198.4 Q1200.0,184.6 1233.35,175.9 Q1266.7,167.2 1300.0,169.35 Q1333.3,171.5 1366.65,183.1 Q1400.0,194.7 1433.35,208.05 Q1466.7,221.4 1500.0,227.7 Q1533.3,234.0 1566.65,229.0 T1600.0,224.0" fill="none" stroke="#8C9B72" stroke-width="1.1"/>
+      <path d="M0.0,425.8 Q0.0,425.8 33.35,432.9 Q66.7,440.0 100.0,431.65 Q133.3,423.3 166.65,405.95 Q200.0,388.6 233.35,375.65 Q266.7,362.7 300.0,364.2 Q333.3,365.7 366.65,380.45 Q400.0,395.2 433.35,411.8 Q466.7,428.4 500.0,434.05 Q533.3,439.7 566.65,429.95 Q600.0,420.2 633.35,402.65 Q666.7,385.1 700.0,373.3 Q733.3,361.5 766.65,364.6 Q800.0,367.7 833.35,383.3 Q866.7,398.9 900.0,414.9 Q933.3,430.9 966.65,434.95 Q1000.0,439.0 1033.35,428.0 Q1066.7,417.0 1100.0,399.4 Q1133.3,381.8 1166.65,371.25 Q1200.0,360.7 1233.35,365.35 Q1266.7,370.0 1300.0,386.25 Q1333.3,402.5 1366.65,417.8 Q1400.0,433.1 1433.35,435.6 Q1466.7,438.1 1500.0,425.85 Q1533.3,413.6 1566.65,396.1 T1600.0,378.6" fill="none" stroke="#C99A46" stroke-width="1.1"/>
+      <path d="M0.0,637.2 Q0.0,637.2 33.35,648.8 Q66.7,660.4 100.0,662.7 Q133.3,665.0 166.65,656.5 Q200.0,648.0 233.35,634.0 Q266.7,620.0 300.0,609.05 Q333.3,598.1 366.65,596.95 Q400.0,595.8 433.35,605.15 Q466.7,614.5 500.0,628.6 Q533.3,642.7 566.65,652.9 Q600.0,663.1 633.35,663.1 Q666.7,663.1 700.0,652.95 Q733.3,642.8 766.65,628.7 Q800.0,614.6 833.35,605.25 Q866.7,595.9 900.0,597.0 Q933.3,598.1 966.65,609.0 Q1000.0,619.9 1033.35,633.95 Q1066.7,648.0 1100.0,656.45 Q1133.3,664.9 1166.65,662.7 Q1200.0,660.5 1233.35,648.85 Q1266.7,637.2 1300.0,623.4 Q1333.3,609.6 1366.65,602.05 Q1400.0,594.5 1433.35,597.85 Q1466.7,601.2 1500.0,613.4 Q1533.3,625.6 1566.65,639.15 T1600.0,652.7" fill="none" stroke="#8C9B72" stroke-width="1.1"/>
+    </svg>
+
+    <div class="wrap outputs-inner">
+      <div class="outputs-head rise">
+        <p class="eyebrow">Archive</p>
+        <h1>Outputs</h1>
+        <p>Five seminars and tours completed across the Course. Select any entry to open its narrative report, documentation, and certificate.</p>
+      </div>
+
+      <div class="output-grid rise" id="output-grid"></div>
+
+      <p class="outputs-foot">End of archive &middot; Five seminars attended &middot; AY 2025&ndash;2026</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SEMINAR DETAIL (rendered from data in the script below) ================= -->
+<section id="seminar" class="page" aria-label="Seminar narrative">
+  <div id="seminar-root"></div>
+</section>
+
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
